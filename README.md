@@ -42,4 +42,5 @@ Just a list, haven't vetted some of them:
 
 * Go graphing pkg: <https://github.com/go-graphite/carbonapi/tree/master/expr/functions/cairo/png>
   (Haven't looked closely)
-* Graphing lib for the browser: <https://developers.google.com/chart> (I find this one promising).
+* Graphing lib for the browser: <https://developers.google.com/chart> (I find this one promising)
+* InfluxDBs graphing code <https://github.com/influxdata/giraffe>
