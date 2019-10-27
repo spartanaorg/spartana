@@ -44,3 +44,15 @@ Just a list, haven't vetted some of them:
   (Haven't looked closely)
 * Graphing lib for the browser: <https://developers.google.com/chart> (I find this one promising)
 * InfluxDBs graphing code <https://github.com/influxdata/giraffe>
+
+## Spartana/grafana
+
+The [spartanaorg/grafana](https://github.com/spartanaorg/grafana) is the current playground, for (at
+first) removing things; once that is small enough we'll copy it to *spartana* and call it out first
+release.
+
+Currently remove from *Grafana* upstream:
+
+* users - there is no auth anymore - everyone is Admin (although that has no meaning anymore).
+* alerting - prometheus alertmanager is the only one left.
+* Go vendoring has been removed.
