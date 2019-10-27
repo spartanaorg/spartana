@@ -30,6 +30,10 @@ dashoards on the fly. KISS and the Unix philosophy, etc.
 * No user management; only allow anonymous access; everything is public
 * Apache license
 
+End goal I would like to keep:
+
+* folders (for different orgs?) just as a way to keep things organized.
+
 ## How
 
 We can fork Grafana and rip out all the bits we don't need or just start from scratch. We have such
@@ -51,8 +55,7 @@ The [spartanaorg/grafana](https://github.com/spartanaorg/grafana) is the current
 first) removing things; once that is small enough we'll copy it to *spartana* and call it out first
 release.
 
-Currently remove from *Grafana* upstream:
+Currently removed from *Grafana* upstream:
 
-* users - there is no auth anymore - everyone is Admin (although that has no meaning anymore).
 * alerting - prometheus alertmanager is the only one left.
 * Go vendoring has been removed.
